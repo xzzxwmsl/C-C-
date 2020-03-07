@@ -56,8 +56,8 @@ int main(){
 	printf("use + is %+d, %+d\n",num,-num); 
 	printf("use ' ' is % d, % d\n",num,-num); 
 	const double F=3852.99;
-	printf("*%f*\n",F);
-	printf("*%e*\n",F);
+	printf("*%f*\n",F);//默认小数点后六位 
+	printf("*%e*\n",F);//小数点左侧默认一位数字 
 	printf("*%g*\n",F);
 	printf("*%4.2f*\n",F);
 	printf("*%3.1f*\n",F);
@@ -65,5 +65,7 @@ int main(){
 	printf("*%10.3E*\n",F);
 	printf("*%+4.2f*\n",F);
 	printf("*%010.2f*\n",F);
+	
+	printf("use %%#, o is %#o, x is %#x\n",num,num); 
 	return 0; 
 } 
