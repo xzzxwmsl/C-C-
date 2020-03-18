@@ -1,25 +1,25 @@
 #include<stdio.h>
 
 int main(){
-	//printf 里的*起着动态设定printf参数的作用 
+	//printf 脌茂碌脛*脝冒脳脜露炉脤卢脡猫露篓printf虏脦脢媒碌脛脳梅脫脙 
 	unsigned width,precision;
 	int num=256;
 	double weight=245.2;
-	printf("输入宽度:\n");
+	printf("脢盲脠毛驴铆露脠:\n");
 	scanf("%d",&width);
 	printf("num is %*d\n",width,num);
 	
-	printf("输入宽度与精度\n");
+	printf("脢盲脠毛驴铆露脠脫毛戮芦露脠\n");
 	scanf("%d %d",&width,&precision);
 	printf("Weight is %*.*f\n",width,precision,weight);
 	
-	//scanf 中将*放到%和转换字符之间，起着跳过输出项的作用
+	//scanf 脰脨陆芦*路脜碌陆%潞脥脳陋禄禄脳脰路没脰庐录盲拢卢脝冒脳脜脤酶鹿媒脢盲鲁枚脧卯碌脛脳梅脫脙
 	
 	int n;
-	printf("请输入3个数字:\n");
+	printf("脟毛脢盲脠毛3赂枚脢媒脳脰:\n");
 	scanf("%*d %*d %d",&n);
 	printf("The last one is: %d\n",n);
-	//在读取文件中特定列的时候，这个功能比较有用 
+	//脭脷露脕脠隆脦脛录镁脰脨脤脴露篓脕脨碌脛脢卤潞貌拢卢脮芒赂枚鹿娄脛脺卤脠陆脧脫脨脫脙 
 	
 	 
 	return 0;
