@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include<windows.h>
+#include <windows.h>
 
 int fun1(int n);
 int fun2(int n);
